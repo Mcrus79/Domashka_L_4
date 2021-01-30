@@ -1,0 +1,179 @@
+/*-------------------Подключаєм шрифты---------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,700italic&display=swap");
+
+@font-face {
+	font-family: "Suisse Intl";
+	src: url('../fonts/SuisseIntl-Bold.woff2') format('woff2'),
+		 url('../fonts/../fonts/SuisseIntl-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Suisse Intl";
+	src: url('../fonts/SuisseIntl-Regular.woff2') format('woff2'),
+		 url('../fonts/SuisseIntl-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+/*---------------------------------------------------------*/
+
+/*----------------------Стили обнуления--------------------*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/* ------------------------------------------------------ */
+
+/*-------------Задаем стиль для всей страницы-------------*/
+body {
+	font-family: "Suisse Intl", Helvetica, sans-serif;
+	color: #525252;
+	line-height: 1;
+	font-size: 13px;
+
+	
+}
+/*---------------------------------------------------------*/
+
+/*------Задаем главному заголовку (Main Name Prson)------- */
+
+.persona {
+	font-family: "Pacifico", cursive;
+	font-size: 26px;
+	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+	font-weight: 700;
+}
+
+/*---Задаем стили (тегу span) c разными класcам главного заголовка---*/
+.persona__blue {
+	color: blue;
+	text-shadow:5px 2px 2px #758cd3, 3px 3px 3px rgba(248, 0, 0, 0.753);
+}
+.persona__green {
+	color: rgb(0, 255, 34);
+	
+}
+.persona__red {
+		color: red;
+		text-shadow:5px 2px 2px #d19292;
+}
+/*---Закончили задавать стили (тегу span( c разными класcам главного заголовка---*/
+/*---------------------------------------------------------*/
+/*--------Задаем двум класам (через запьятую) другой шрифт и разные стили----------*/
+.social,
+.expert {
+	font-family: "Suisse Intl";
+	font-size: 24px;
+	font-weight: 700;
+	color: black;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 14px;
+
+}
+/*---------------------------------------------------------*/
+.color {
+	font-weight: 700;
+	color: rgb(25, 0, 253);
+	text-align: justify;
+	text-shadow: 1px 2px 1px rgb(134, 144, 238);
+	
+}
+.color__apostrof {
+	font-size: 40px;
+}
+.color__text {
+	font-size: 16px;
+	line-height: 131%;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+
+
+}
+.color__date {
+	font-size: 14px;
+	text-decoration: line-through;
+}
+/*---------------------------------------------------------*/
+main{
+
+	text-shadow: 2px 3px 4px rgb(133, 133, 133);
+}
+
+
+.text{
+	line-height: 123%;
+	
+
+}
+.text__zagolovok {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.text span { 
+	
+	font-weight: 700;
+}
+
+/*---------------------------------------------------------*/
+.footer span{
+	font-family: Roboto;
+	color: #525252;
+	font-weight: 700;
+}
+
+.footer{
+	font-family:"Pacifico", cursive;
+	color: rgb(94, 94, 255);
+	text-align: center;
+}
+	
+.footer__nav a {
+	font-family: Roboto, sans-serif;
+	color: red;
+	font-weight: 700;
+	font-size: 14px;
+	text-decoration: underline;
+
+}
+.text__web a{
+	font-family: Roboto, sans-serif;
+	font-weight: normal;
+	color: rgb(36, 194, 36);
+	text-decoration: underline;
+}
+
+/*---------------------------------------------------------*/
